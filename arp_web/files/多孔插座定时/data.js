@@ -1,0 +1,214 @@
+﻿$axure.loadCurrentPage({
+  "url":"多孔插座定时.html",
+  "generationDate":new Date(1450070652332.02),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"63b17c2113904f0d9c67f512c338fe5f",
+    "type":"Axure:Page",
+    "name":"多孔插座定时",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3f4bd5f924a541b7af622bf94890ee59",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"54428309cb6d4be5810ce7a26b168790",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.jpg"}},
+{
+          "id":"3ca0896f7cf546d782c749762f3f0583",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":106},
+            "size":{
+              "width":374,
+              "height":666}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4da5cc1d86d2438d9a777cb90f6ebd52",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":28,
+                  "y":106},
+                "size":{
+                  "width":374,
+                  "height":666}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/多孔插座定时/u2.jpg"}},
+{
+          "id":"100e7268246641749d47d7b355f04da5",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":500},
+            "size":{
+              "width":350,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择插孔",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择插孔.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"082d90da5a8945a7b624c76108eef382",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":130},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 返回",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"0b23d6e4b27847f48c12cd358ae544a1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF3399FF},
+            "location":{
+              "x":378,
+              "y":503},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a59f91fbe58f4472a4da7c726d9280c1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF3399FF},
+                "location":{
+                  "x":378,
+                  "y":503},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u5.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3f4bd5f924a541b7af622bf94890ee59":{
+      "scriptId":"u0"},
+    "54428309cb6d4be5810ce7a26b168790":{
+      "scriptId":"u1"},
+    "3ca0896f7cf546d782c749762f3f0583":{
+      "scriptId":"u2"},
+    "4da5cc1d86d2438d9a777cb90f6ebd52":{
+      "scriptId":"u3"},
+    "100e7268246641749d47d7b355f04da5":{
+      "scriptId":"u4"},
+    "082d90da5a8945a7b624c76108eef382":{
+      "scriptId":"u5"},
+    "0b23d6e4b27847f48c12cd358ae544a1":{
+      "scriptId":"u6"},
+    "a59f91fbe58f4472a4da7c726d9280c1":{
+      "scriptId":"u7"}}});

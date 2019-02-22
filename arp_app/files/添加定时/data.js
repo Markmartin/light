@@ -1,0 +1,342 @@
+﻿$axure.loadCurrentPage({
+  "url":"添加定时.html",
+  "generationDate":new Date(1450147154780.27),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"37634f62951547459e141c97d953964f",
+    "type":"Axure:Page",
+    "name":"添加定时",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"213c103ba9144ecc81bc777797726c57",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"390cd78d9bf94b9e8942a8160a244afc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lightingyun-app/u0.png"}},
+{
+          "id":"7e8d7a2307de4ebc8d6254b378a715c3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":0,
+              "y":664},
+            "size":{
+              "width":448,
+              "height":271}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7bbc8759555a4fff87d5e5fb69c0105b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":0,
+                  "y":664},
+                "size":{
+                  "width":448,
+                  "height":271}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/白光灯/u2.png"}},
+{
+          "id":"79122324c79c4c53a32d2712e48cb0a0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":30,
+              "y":110},
+            "size":{
+              "width":370,
+              "height":689}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6f25e775b63a4e1f8aa48b28665f86f8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":30,
+                  "y":110},
+                "size":{
+                  "width":370,
+                  "height":689}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/添加定时/u4.jpg"}},
+{
+          "id":"0845859c348043bbbf1a52facb4276c1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":37,
+              "y":132},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 返回",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"83041703152848689d721921187ed4c5",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":37,
+              "y":670},
+            "size":{
+              "width":343,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择重复时间",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择重复时间.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"e4fd6a0cac994344a6d242e08978f43c",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":37,
+              "y":747},
+            "size":{
+              "width":363,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 白光灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"白光灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"2ece2444445f44fe986fdc231e0d1fdb",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":380,
+              "y":678},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4e13cff2071742efabcb41f0ffa5755f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":380,
+                  "y":678},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"888e5fa9b1b54605a33183680d87e44f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":239,
+              "y":759},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f150cd538e114f4c96ce825c4b6268ca",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":239,
+                  "y":759},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "213c103ba9144ecc81bc777797726c57":{
+      "scriptId":"u0"},
+    "390cd78d9bf94b9e8942a8160a244afc":{
+      "scriptId":"u1"},
+    "7e8d7a2307de4ebc8d6254b378a715c3":{
+      "scriptId":"u2"},
+    "7bbc8759555a4fff87d5e5fb69c0105b":{
+      "scriptId":"u3"},
+    "79122324c79c4c53a32d2712e48cb0a0":{
+      "scriptId":"u4"},
+    "6f25e775b63a4e1f8aa48b28665f86f8":{
+      "scriptId":"u5"},
+    "0845859c348043bbbf1a52facb4276c1":{
+      "scriptId":"u6"},
+    "83041703152848689d721921187ed4c5":{
+      "scriptId":"u7"},
+    "e4fd6a0cac994344a6d242e08978f43c":{
+      "scriptId":"u8"},
+    "2ece2444445f44fe986fdc231e0d1fdb":{
+      "scriptId":"u9"},
+    "4e13cff2071742efabcb41f0ffa5755f":{
+      "scriptId":"u10"},
+    "888e5fa9b1b54605a33183680d87e44f":{
+      "scriptId":"u11"},
+    "f150cd538e114f4c96ce825c4b6268ca":{
+      "scriptId":"u12"}}});

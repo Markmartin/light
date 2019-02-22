@@ -1,0 +1,147 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择重复.html",
+  "generationDate":new Date(1450070651976.47),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"004666a7700141bcbca96d047ff708a1",
+    "type":"Axure:Page",
+    "name":"选择重复",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0691dfe29d1b4221b41364dc21f2125c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4646788557ad4154a077fdf3454f293a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.jpg"}},
+{
+          "id":"eb42760a7b954d919cf2b13b00158c7a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":810},
+            "size":{
+              "width":430,
+              "height":171},
+            "rotation":"0",
+            "textRotation":"0",
+            "borderWidth":"0",
+            "cornerRadiusTopLeft":"0"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"81b21661a936402db7cd0a0afadd60e3",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":810},
+                "size":{
+                  "width":430,
+                  "height":171},
+                "rotation":"0",
+                "textRotation":"0",
+                "borderWidth":"0",
+                "cornerRadiusTopLeft":"0"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/更多设置/u4.png"}},
+{
+          "id":"59e7f8307dc84306851bea49ee0abcb2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":107},
+            "size":{
+              "width":374,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a35cab96f6694546a6a15f01718e7632",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":28,
+                  "y":107},
+                "size":{
+                  "width":374,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择重复/u4.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0691dfe29d1b4221b41364dc21f2125c":{
+      "scriptId":"u0"},
+    "4646788557ad4154a077fdf3454f293a":{
+      "scriptId":"u1"},
+    "eb42760a7b954d919cf2b13b00158c7a":{
+      "scriptId":"u2"},
+    "81b21661a936402db7cd0a0afadd60e3":{
+      "scriptId":"u3"},
+    "59e7f8307dc84306851bea49ee0abcb2":{
+      "scriptId":"u4"},
+    "a35cab96f6694546a6a15f01718e7632":{
+      "scriptId":"u5"}}});

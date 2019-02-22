@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="专业 智能硬件 本地控制 远程控制 云端控制 解决方案提供商" />
+    <meta name="description" content="专业 智能硬件 本地控制 远程控制 云端控制 解决方案提供商" />
+    <title>照明云</title>
+    <link type="image/x-icon" rel="icon" href="http://www.zhuoapp.com/favicon.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="http://www.zhuoapp.com/favicon.ico">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+    <base target="_blank" />
+</head>
+
+<body>
+    <!--<div id="header">
+        <div class="content">
+            <img class="logo" src="img/logo.png"/>
+            <div class="menu">
+                <ul>
+                    <li><a href="javascript:void(0)" onclick="return false;" class="hover" target="_self">首页</a></li>
+                    <li><a href="solution.html" target="_self">照明云</a></li>
+                    <li><a href="case.html" target="_self">案例</a></li>
+                    <li><a href="contact.html" target="_self">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>-->
+    <!--#include file="header.html" -->
+    <!--首页锚点-->
+    <div id="container">
+        <div class="big_pic">
+            </div>
+        <div class="content" align="center">
+            <!--公司信息锚点-->
+            <div class="company-info">
+                <div class="code">
+                    <img src="img/homepage_qrcode.jpg">
+                    <span class="code_desc">微信公众号</span>
+                </div>
+                <div class="intro">
+                    <span class="green">卓年——</span><span class="yellow">为智能照明而生</span>
+                    <p>上海卓年软件研发有限公司是苹果认证的（MFI计划）全球唯一的智能照明软件方案提供商。是国内较早一批涉足照明智能化的资深企业，为欧普照明，亚明照明，豪迈照明，国家半导体照明应用系统研究中心提供过智能照明领域的解决方案。与汉枫、庆科等智能硬件芯片级方案提供商深入合作，为传统照明厂商的智能化升级提供安心完美的解决方案。<br><br>携手传统照明企业一起推动物联网真正从概念化走向实用化，助力传统硬件制造企业从工业3.0向工业4.0时代演进。</p>
+                </div>
+            </div>
+            <div class="customer_container">
+                <img src="img/hp_customer.png">
+                <table>
+                    <tr>
+                        <td><a href="http://www.gizwits.com/"><img src="img/logo/jizhiyun.png"></a></td>
+                        <td><img src="img/logo/jingfengmingyuan.png"></td>
+                        <td><img src="img/logo/anxinke.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/logo/shunzhou.png"></td>
+                        <td><img src="img/logo/microchip.png"></td>
+                        <td><img src="img/logo/hanfeng.png"></td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/logo/lexin.png"></td>
+                        <td><img src="img/logo/qingke.png"></td>
+                        <td><img src="img/logo/guoban.png"></td>
+                    </tr>
+                </table>
+                <img src="img/hp-case.png">
+            </div>
+            <!--案例锚点-->
+            <div class="case_container">
+            <div class="case_header"><span class="green case_title">优秀案例</span></div>
+            <div class="case_content">
+                <a href="opple.html" class="case_thumb" style="background-image:url(img/homepage_case1.png)"></a>
+                <a href="jojo.html" class="case_thumb" style="background-image:url(img/homepage_case2.png)"></a>
+                <a href="haomai.html" class="case_thumb" style="background-image:url(img/homepage_case3.png)"></a>
+                <p class="more_case"><a href="case.html"><img src='img/more_case.png'/></a></p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253278938'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1253278938%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+   
+<script language="javascript" type="text/javascript">var _kc_userID="215664";</script><script language="JavaScript" type="text/javascript" src="http://eyclick.kkeye.com/js/stat.js"></script>
+
+<!--<div id="footer"><div><img src="img/footer-logo.png"><p>&nbsp;版权所有&nbsp;/&nbsp;沪ICP备11014118号</p></div></div>-->
+<!--#include file="footer.html" -->
+
+<script type="text/javascript">
+   $(function(){
+            $(".case_container .case_thumb").hover(function(){
+                if(!($(this).children('img').length))
+                    $(this).append('<img src="img/homepage_case_sel.png" style="opacity: 0;filter: Alpha(Opacity=0);"/>');
+                $(this).children('img').stop(true).animate({opacity:1.0},500);  
+            },function(){
+                $(this).children('img').stop(true).animate({opacity:0.0},500);
+            });
+
+   });
+</script>
+
+
+
+</body>
+</html>

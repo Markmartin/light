@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <style type="text/css">
+ 
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,button,p,span{margin:0px;padding:0px;border:0px;}
+body{font-size:12px;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a{color:#344659; text-decoration:none;}
+a:visited{color:#344659;}
+a:hover,a:active{color:#344659; text-decoration:underline;} 
+		
+  </style>
+<link href="css/light.css" rel="stylesheet" type="text/css" />
+	   <script type="text/javascript">
+		window.onload = function(){
+			var divId=document.getElementById("shuoming");
+			if(isWeiXin()){
+				divId.style.height=document.body.scrollHeight+'px';
+				divId.style.display="block";//显示
+			}
+		}
+
+		function isWeiXin(){
+			var ua = window.navigator.userAgent.toLowerCase();
+			if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		</script>
+	</head>
+<body>
+		<div class="lang">
+			<span>Language:<a href="light.html"><img src="phone/images/lan_ch.png"/>Chinese</a>/<a href="light_en.html" class="lang_hover"><img src="phone/images/lan_en.png"/>English</a></span>
+		</div>
+		<div id="wrap">
+			<a  class="a1" href="http://fir.im/v2bwz">
+				<div  class="list1">
+					<img class="img" src="phone/images/step1.png">
+					<img src="phone/images/step1-pic.png" class="img_img">
+					<div>
+						<span class="span_1">Download APP</span>
+						<br/>
+						<img class="bb" src="phone/images/step1-icon.png">
+						<span class="font_1_1">Download</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1" href="https://detail.1688.com/offer/544398749308.html?spm=a2615.2177701.5680897.2.UhZB9n">
+				<div class="list1">
+					<img class="img" src="phone/images/step2.png">
+					<img src="phone/images/step2-pic.png" class="img_img">
+					<div>
+						<span class="span_1">Purchase module</span>
+						<br/>
+						<img class="bb" src="phone/images/step2-icon.png" >
+						<span class="font_1_1">Purchase Online</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1" href="http://www.lightingyun.com/files/mesh_intro.pdf">
+				<div class="list1">
+					<img class="img" src="phone/images/step3.png">
+					<img src="phone/images/step3-pic.png" class="img_img">
+					<div>
+						<span class="span_1">Download documents</span>
+						<br/>
+						<img class="bb" src="phone/images/step3-icon.png">
+						<span class="font_1_1">Download</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1">
+				<div class="list1">
+					<img class="img" src="phone/images/step4.png">
+					<img src="phone/images/step4-pic.png" class="img_img_1">
+					<div>
+						<span class="span_2">Use APP control</span>
+						<br/>
+						<span class="span_2">your lights</span>
+					</div>
+				</div>
+			</a>
+			<p class="font_1">Self Assembling</p>
+			<p class="font_2">
+				According to above steps, we can help you quickly manufact  smartlights.Developers can just download our APP and buy our modules, and then assembled your lamps by reading documents, now you can use our APP to control your lamps.
+			</p>
+			
+			<center class="center">
+				<a  class="a_style" href="http://www.lightingyun.com/index.html"><img src="phone/images/logo.png"></a>
+			</center>
+		</div>
+		<div id="shuoming" style="position:absolute;top:0px;display:none;" >
+			<img class="shuoming_img" src="phone/images/shuoming.png">
+		</div>
+</body>
+</html>

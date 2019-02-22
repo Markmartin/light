@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url(common.css);
+#container .content {width: 100%;}
+#container .content .top{width: 100%;height: 560px;background: url(../img/haomai_top.jpg) no-repeat center;}
+#container .content .top1{width: 1000px;text-align: center;margin: 0 auto;}
+#container .content .top1 .title{font-size: 30px; margin: 60px 0 10px 0;}
+#container .content .top1  p {font-size:20px;line-height: 35px; }
+#container .content .center1{width: 1000px;height: 600px;text-align: center;margin: 0 auto;margin-top: 30px;}
+
+
+#container .content .center1 .list .list1{width: 600px;float: left;}
+#container .content .center1 .list .list2{width: 400px;float: left;}
+#container .content .center1 .list h1{color: #eb6156;border-bottom:2px solid #eb6156; width: 425px;padding: 0px 0 20px 0;text-align: left;font-size: 26px;}
+#container .content .center1 .list p{width: 425px;line-height: 30px;font-size: 20px;text-align: left;padding-top: 8px;}
+#container .content .center1 .list dl{text-align: left;width: 425px;}
+#container .content .center1 .list dl dt{background: url(../img/question.png) no-repeat left;color: #eb6156;font-size: 24px;padding:20px 5px 20px 40px;margin-top: 10px;}
+#container .content .center1 .list dl dd{font-size: 20px;line-height: 30px;}
+#container .content .center1 .list .list2 h1{color: #6eb92b;border-bottom:2px solid #6eb92b; }
+#container .content .center1 .list .list2 dl h1{color: #6eb92b;border-bottom:2px solid #6eb92b;}
+#container .content .center1 .list .list2 dl dt{background: url(../img/solution.png) no-repeat left;color:#6eb92b; }
+
+
+#container .content .center2 {width: 100%;background: #c6ebf9  no-repeat center;text-align:center;}
+#container .content .center2 img{width: 100%;vertical-align:center;margin-top: 0px;margin-left: auto;margin-right: auto;}

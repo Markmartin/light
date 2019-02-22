@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import url(common.css);
+span {
+font-family: '黑体';
+}
+
+#container {background: url(../img/solution_bgpic.jpg) no-repeat fixed;text-align: center;padding-bottom: 40px;}
+
+.imgs{width: 1000px; margin: 60px auto 0 auto;background: #fff;border-radius: 10px;padding: 0 0 60px 0; 
+    -webkit-box-shadow:0 4px 4px #ccc;  
+    -moz-box-shadow:0 4px 4px #ccc;  
+    box-shadow:0 4px 4px #ccc;}
+
+.imgs h2{color: #32d08f;font-size: 30px;width: 100%; text-align: center;padding: 50px 0 10px 0;}
+.imgs h2.pad{padding-bottom: 20px;}
+.imgs h6 {color:#32d08f;font-size: 26px;width: 100%; text-align: center;padding-bottom: 10px;clear: both;}
+.imgs a{display: block;text-align: center;margin: 10px auto 30px auto}
+.imgs h3{display: inline-block;text-align: center;width: 200px;}
+.imgs .link_desc{margin:-10px auto 30px auto;}
+.imgs div a{display: inline-block;}
+.imgs div a:last-child{margin-left: 20px;}
+.imgs div h3:last-child{margin-left: 20px;}
+.so_text{font-size: 20px;display: block;margin:50px 0 26px 0;}

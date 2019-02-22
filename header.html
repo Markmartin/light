@@ -1,0 +1,26 @@
+    <!--#if expr="$DOCUMENT_NAME=/^index.+/"-->
+        <!--#set var="loc" value=0 -->
+    <!--#elif expr="$DOCUMENT_NAME=/^solution.+/" -->
+        <!--#set var="loc" value=1 -->
+    <!--#elif expr="$DOCUMENT_NAME=/^contact.+/" -->
+        <!--#set var="loc" value=3 -->
+    <!--#elif expr="$DOCUMENT_NAME=/^developer.+/" -->
+        <!--#set var="loc" value=4 -->
+    <!--#else -->  
+        <!--#set var="loc" value=2 -->
+    <!--#endif-->
+   <div id="header">
+        <div class="content">
+            <img class="logo" src="img/logo.png"/>
+            <div class="menu">
+                <ul>
+                    <li><a href="http://www.lightingyun.com" target="_self"  <!--#if expr="$loc=0"-->class="hover"<!--#endif -->>首页</a></li>
+                    <li><a href="solution.html" target="_self" <!--#if expr="$loc=1"-->class="hover"<!--#endif-->>照明云</a></li>
+                    <li><a href="case.html" target="_self" <!--#if expr="$loc=2"-->class="hover"<!--#endif-->>案例</a></li>
+                    <li><a href="developer.html" target="_self" <!--#if expr="$loc=4"-->class="hover"<!--#endif-->>自助开发</a></li>
+                    <li><a href="contact.html" target="_self" <!--#if expr="$loc=3"-->class="hover"<!--#endif-->>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+

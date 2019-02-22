@@ -1,0 +1,202 @@
+﻿$axure.loadCurrentPage({
+  "url":"单色灯.html",
+  "generationDate":new Date(1452050985227.93),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"cde94d86bd68499b8e9655200a44138f",
+    "type":"Axure:Page",
+    "name":"单色灯",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7d9e825d7dbe4160a8550a1066c3a203",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8983e114a32449a8961abeaa45ff97cd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/index/u0.png"}},
+{
+          "id":"67db798fb9f44e6fb3aade935d11080f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":30,
+              "y":109},
+            "size":{
+              "width":371,
+              "height":660}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a5f74fc30a184d4cbda6b9bda2273f51",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":30,
+                  "y":109},
+                "size":{
+                  "width":371,
+                  "height":660}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/单色灯/u2.jpg"}},
+{
+          "id":"d9c4ca0214d2475a952317e3d52bf21f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":329,
+              "y":393},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 彩色灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"彩色灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9e41d887c5a14f8bba3888ea8a4e098a",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":340,
+              "y":140},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 导航",
+                      "target":{
+                        "targetType":"page",
+                        "url":"导航.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"56b0b31f72bf4a7ab364e99591d59392",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":220,
+              "y":330},
+            "size":{
+              "width":159,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 设置",
+                      "target":{
+                        "targetType":"page",
+                        "url":"设置.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7d9e825d7dbe4160a8550a1066c3a203":{
+      "scriptId":"u0"},
+    "8983e114a32449a8961abeaa45ff97cd":{
+      "scriptId":"u1"},
+    "67db798fb9f44e6fb3aade935d11080f":{
+      "scriptId":"u2"},
+    "a5f74fc30a184d4cbda6b9bda2273f51":{
+      "scriptId":"u3"},
+    "d9c4ca0214d2475a952317e3d52bf21f":{
+      "scriptId":"u4"},
+    "9e41d887c5a14f8bba3888ea8a4e098a":{
+      "scriptId":"u5"},
+    "56b0b31f72bf4a7ab364e99591d59392":{
+      "scriptId":"u6"}}});

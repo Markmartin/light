@@ -1,0 +1,189 @@
+﻿$axure.loadCurrentPage({
+  "url":"请链接蓝牙设备.html",
+  "generationDate":new Date(1454143465874.69),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"75ed76b3e7f842d98bbc376f3645322a",
+    "type":"Axure:Page",
+    "name":"请链接蓝牙设备",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"be9da8ce828849edbe3df3c97d1b9b94",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bf5d6e497f38455593b2983e0d7a1412",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lighting_cloud_v2/u0.png"}},
+{
+          "id":"b61b9eb17e6f49c5a4d42e0f5691f685",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":28,
+              "y":108},
+            "size":{
+              "width":372,
+              "height":661}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a74d2a251a25473b91d78c92eef27001",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":28,
+                  "y":108},
+                "size":{
+                  "width":372,
+                  "height":661}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/请链接蓝牙设备/u2.jpg"}},
+{
+          "id":"438d2815546944b9a0c5f4834c3ea2a8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":180},
+            "size":{
+              "width":330,
+              "height":480}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 彩色+色温+亮度_彩色",
+                      "target":{
+                        "targetType":"page",
+                        "url":"彩色_色温_亮度_彩色.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"04586d186cba4e78a298920236f8efdd",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF009DD9},
+            "location":{
+              "x":240,
+              "y":611},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"33660f6f799540ae80083fd6c517a4dd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF009DD9},
+                "location":{
+                  "x":240,
+                  "y":611},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/色温_亮度/u11.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "be9da8ce828849edbe3df3c97d1b9b94":{
+      "scriptId":"u0"},
+    "bf5d6e497f38455593b2983e0d7a1412":{
+      "scriptId":"u1"},
+    "b61b9eb17e6f49c5a4d42e0f5691f685":{
+      "scriptId":"u2"},
+    "a74d2a251a25473b91d78c92eef27001":{
+      "scriptId":"u3"},
+    "438d2815546944b9a0c5f4834c3ea2a8":{
+      "scriptId":"u4"},
+    "04586d186cba4e78a298920236f8efdd":{
+      "scriptId":"u5"},
+    "33660f6f799540ae80083fd6c517a4dd":{
+      "scriptId":"u6"}}});

@@ -1,0 +1,220 @@
+﻿$axure.loadCurrentPage({
+  "url":"帮助.html",
+  "generationDate":new Date(1450147155706.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9c97877b7df94eb4b79af9191b995ddd",
+    "type":"Axure:Page",
+    "name":"帮助",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6fd6a3e3a50a4cc384daa8bbadec07a1",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0b24cd72f6a04949a1bac50dbacafae8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lightingyun-app/u0.png"}},
+{
+          "id":"d733b137468f4c309e1465d511bc1027",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":30,
+              "y":111},
+            "size":{
+              "width":370,
+              "height":658}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"92828593f82a4c3ca90794922e8949f8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":30,
+                  "y":111},
+                "size":{
+                  "width":370,
+                  "height":658}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/帮助/u2.jpg"}},
+{
+          "id":"afc877f479c846fdb91d4ec1e35af5d3",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":37,
+              "y":132},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 返回",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"922abc2230104388a6d355fbb8e971cd",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":192},
+            "size":{
+              "width":340,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 帮助说明",
+                      "target":{
+                        "targetType":"page",
+                        "url":"帮助说明.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"eb25bd7f1269410cae8d03bcaf39b640",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":170,
+              "y":206},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6847aff658654ec680de780d61130bb0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":170,
+                  "y":206},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6fd6a3e3a50a4cc384daa8bbadec07a1":{
+      "scriptId":"u0"},
+    "0b24cd72f6a04949a1bac50dbacafae8":{
+      "scriptId":"u1"},
+    "d733b137468f4c309e1465d511bc1027":{
+      "scriptId":"u2"},
+    "92828593f82a4c3ca90794922e8949f8":{
+      "scriptId":"u3"},
+    "afc877f479c846fdb91d4ec1e35af5d3":{
+      "scriptId":"u4"},
+    "922abc2230104388a6d355fbb8e971cd":{
+      "scriptId":"u5"},
+    "eb25bd7f1269410cae8d03bcaf39b640":{
+      "scriptId":"u6"},
+    "6847aff658654ec680de780d61130bb0":{
+      "scriptId":"u7"}}});

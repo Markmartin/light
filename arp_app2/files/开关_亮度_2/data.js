@@ -1,0 +1,208 @@
+﻿$axure.loadCurrentPage({
+  "url":"开关_亮度_2.html",
+  "generationDate":new Date(1453877267161.31),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"b3846d10250e4b32a7593fde1ab1a680",
+    "type":"Axure:Page",
+    "name":"开关+亮度_2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c1982cb3067c4b9a85e084ae0dcd6088",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":4,
+              "y":0},
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4bf15ee3fa744d0cb50138436ec23f0f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":4,
+                  "y":0},
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lighting_cloud_v2/u0.png"}},
+{
+          "id":"588d86ec18b9442c8472fd86270c57b7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":32,
+              "y":108},
+            "size":{
+              "width":373,
+              "height":662}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9b12cae4c4674982a93a2953b493c7a0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":32,
+                  "y":108},
+                "size":{
+                  "width":373,
+                  "height":662}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/开关_亮度_2/u2.jpg"}},
+{
+          "id":"50fae41de5b44c3398c588fe96cf98e7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":344,
+              "y":140},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 导航",
+                      "target":{
+                        "targetType":"page",
+                        "url":"导航.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"6cff82e3189f40d99a7ca6bac3487166",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":110,
+              "y":324},
+            "size":{
+              "width":210,
+              "height":230}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 开关+亮度_1",
+                      "target":{
+                        "targetType":"page",
+                        "url":"开关_亮度_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"77ed4d1b7163476dbc09f5e744b69240",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":50,
+              "y":690},
+            "size":{
+              "width":330,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 设置",
+                      "target":{
+                        "targetType":"page",
+                        "url":"设置.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c1982cb3067c4b9a85e084ae0dcd6088":{
+      "scriptId":"u0"},
+    "4bf15ee3fa744d0cb50138436ec23f0f":{
+      "scriptId":"u1"},
+    "588d86ec18b9442c8472fd86270c57b7":{
+      "scriptId":"u2"},
+    "9b12cae4c4674982a93a2953b493c7a0":{
+      "scriptId":"u3"},
+    "50fae41de5b44c3398c588fe96cf98e7":{
+      "scriptId":"u4"},
+    "6cff82e3189f40d99a7ca6bac3487166":{
+      "scriptId":"u5"},
+    "77ed4d1b7163476dbc09f5e744b69240":{
+      "scriptId":"u6"}}});

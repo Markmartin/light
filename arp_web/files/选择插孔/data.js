@@ -1,0 +1,133 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择插孔.html",
+  "generationDate":new Date(1450070652363.03),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0bf4a61ca301402fbf15f3bab9895bef",
+    "type":"Axure:Page",
+    "name":"选择插孔",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3f4bd5f924a541b7af622bf94890ee59",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"54428309cb6d4be5810ce7a26b168790",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.jpg"}},
+{
+          "id":"03151e6094824be7b99226154429c808",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":107},
+            "size":{
+              "width":374,
+              "height":666}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6f223ae4640a4766ab25cc723db3dcb8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":28,
+                  "y":107},
+                "size":{
+                  "width":374,
+                  "height":666}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择插孔/u2.jpg"}},
+{
+          "id":"240584ffc32c43a29814060c14084aab",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":130},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 返回",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3f4bd5f924a541b7af622bf94890ee59":{
+      "scriptId":"u0"},
+    "54428309cb6d4be5810ce7a26b168790":{
+      "scriptId":"u1"},
+    "03151e6094824be7b99226154429c808":{
+      "scriptId":"u2"},
+    "6f223ae4640a4766ab25cc723db3dcb8":{
+      "scriptId":"u3"},
+    "240584ffc32c43a29814060c14084aab":{
+      "scriptId":"u4"}}});

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <style type="text/css">
+ 
+@charset "utf-8";
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,button,p,span{margin:0px;padding:0px;border:0px;}
+body{font-size:12px;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a{color:#344659; text-decoration:none;}
+a:visited{color:#344659;}
+a:hover,a:active{color:#344659; text-decoration:underline;} 
+		
+  </style>
+<link href="css/light.css" rel="stylesheet" type="text/css" />
+	   <script type="text/javascript">
+		window.onload = function(){
+			var divId=document.getElementById("shuoming");
+			if(isWeiXin()){
+				divId.style.height=document.body.scrollHeight+'px';
+				divId.style.display="block";//显示
+			}
+		}
+
+		function isWeiXin(){
+			var ua = window.navigator.userAgent.toLowerCase();
+			if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		</script>
+	</head>
+<body>
+		<div class="lang">
+			<span>语言:<a href="light.html" class="lang_hover"><img src="phone/images/lan_ch.png"/>中文</a>/<a href="light_en.html"><img src="phone/images/lan_en.png"/>英文</a></span>
+		</div>
+		<div id="wrap">
+			<a  class="a1" href="http://fir.im/v2bwz">
+				<div  class="list1">
+					<img class="img" src="phone/images/step1.png">
+					<img src="phone/images/step1-pic.png" class="img_img">
+					<div>
+						<span class="span_1">下载照明云APP</span>
+						<br/>
+						<img class="bb" src="phone/images/step1-icon.png">
+						<span class="font_1_1">APP下载</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1" href="https://detail.1688.com/offer/544398749308.html?spm=a2615.2177701.5680897.2.UhZB9n">
+				<div class="list1">
+					<img class="img" src="phone/images/step2.png">
+					<img src="phone/images/step2-pic.png" class="img_img">
+					<div>
+						<span class="span_1">购买模子进行组装</span>
+						<br/>
+						<img class="bb" src="phone/images/step2-icon.png" >
+						<span class="font_1_1">在线购买</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1" href="http://www.lightingyun.com/files/mesh_intro.pdf">
+				<div class="list1">
+					<img class="img" src="phone/images/step3.png">
+					<img src="phone/images/step3-pic.png" class="img_img">
+					<div>
+						<span class="span_1">下载文档适配工具</span>
+						<br/>
+						<img class="bb" src="phone/images/step3-icon.png">
+						<span class="font_1_1">文档下载</span>
+					</div>
+				</div>
+			</a>
+			<a class="a1">
+				<div class="list1">
+					<img class="img" src="phone/images/step4.png">
+					<img src="phone/images/step4-pic.png" class="img_img_1">
+					<div>
+						<span class="span_2">使用照明云控制</span> 
+						<br/>
+						<span class="span_2">所开发的灯具</span>
+					</div>
+				</div>
+			</a>
+			<p class="font_1">蓝牙灯自助组装</p>
+			<p class="font_2">
+				为了方便快速评估照明云平台的企业以及用户,
+				照明云推出了快速评估产品.开发者或者企业只需要下载照明云的评估版软件,
+				并根据照明云的硬件开发文档开发灯具产品,便可使用照明云App进行控制.
+			</p>
+			
+			<center class="center">
+				<a  class="a_style" href="http://www.lightingyun.com/index.html"><img src="phone/images/logo.png"></a>
+			</center>
+		</div>
+		<div id="shuoming" style="position:absolute;top:0px;display:none;" >
+			<img class="shuoming_img" src="phone/images/shuoming.png">
+		</div>
+</body>
+</html>

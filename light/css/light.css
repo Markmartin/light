@@ -1,0 +1,131 @@
+@charset "utf-8";
+#wrap{
+	min-width:360px;
+	margin: 0px auto;   
+	padding-top: 5px;
+}
+
+#wrap a.a1{
+    display: block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#wrap a >div{
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #acacac;
+}
+
+.img{
+	height: 100%;
+	margin-left:20px;
+}
+
+.img_img{
+	margin-left: 15px;
+	width: 40px;
+	
+}
+.img_img_1{
+	margin-left: 18px;
+	width: 30px;
+	padding-bottom: 10px;
+}
+
+#wrap div.list1{
+	height: 100px;
+}
+
+#wrap div.list1 div{
+	display: inline-block;
+	position: relative;
+	top: 9px;
+	margin-left: 5px;
+}
+
+#wrap div.list1.div a{
+	hover {color:red;};
+	link {color:#344659;};
+	visited {color:red;};
+	active {color:red;};
+}
+
+.span_1{
+	font-size: 15px;
+	line-height: 20px;
+	color:#344659;
+}
+
+.span_2{
+	font-size: 15px;
+	color:#344659;
+	margin-left: 5px;
+	line-height: 21px;
+	padding-top: 5px;
+	
+}
+#wrap div.list1 .bb{
+	top: 55px;
+	width:18px;
+	height:18px;
+}
+
+
+.font_1{
+	font-size:16px;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-weight:bold;
+	color:#344659;
+}
+
+.font_1_1{
+	font-size: 14px;
+	color:#667a90;
+	line-height: 20px;
+}
+
+.font_2{
+	color:#344659;
+	margin-top:20px;
+	margin-left: 30px;
+	margin-right: 40px;
+	line-height: 25px;
+	font-size:16px;
+	word-wrap: break-word; 
+	word-break: normal; 
+}
+
+.font_3{
+	text-decoration: underline;
+	font-size:16px;
+	color:#667a90;
+	padding-bottom: 20px;
+}
+.center{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.center img{width: 100px;}
+
+.shuoming_img{
+	width:100%;
+	height:100%;
+}
+
+.a_style{
+	link {color: #667a90; text-decoration:none;}
+	active:{color: red; }
+	visited {color:red;text-decoration:none;}
+	hover {color: red; text-decoration:underline;} 
+}
+
+html,body{height:100%;background: #f1f1f1;}
+.lang{margin: 20px auto 0 auto; width: 360px; height: 30px;background: #dedede;text-align: center;border-radius: 4px;}
+.lang span{line-height: 30px;height: 30px;font-size: 16px;letter-spacing: 1px;color: #344659;}
+.lang span a{margin: 0 6px;}
+.lang span a img{width: 20px; height: 20px;margin-right: 6px;display: inline-block;margin-top: -2px;}
+.lang span a.lang_hover{text-decoration:underline;color: #519dfc;}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url(common.css);
+span {
+font-family: '黑体';
+}
+
+#container .content {width: 1000px; margin: 0 auto;}
+
+
+#container .big_pic{background:url(../img/banner.jpg) center;width:100%;height:840px;}
+
+
+
+/*合作*/
+.toggle{background: url(../img/logos-bg.jpg) center;width:100%;height:606px;}
+.toggle .title{padding-top:60px;padding-bottom:60px;color:#484848;letter-spacing: 1px;font-size:50px;font-weight: normal;text-align:center;}
+.toggle .line{height: 0px;line-height: 0px;}
+.toggle .img{padding-top: 20px; border-top: dashed 1px #ccc;width: 1034px;}
+
+.title2{padding-top:110px;padding-bottom:20px;text-align:center;color:#484848;letter-spacing: 1px;font-size: 30px;font-weight: normal;}
+.title3{padding-top:8px;padding-bottom:8px;text-align:center;color:#484848;letter-spacing: 1px;font-size: 20px;font-weight: normal;}
+.processImage{width:1004px;height:300px;margin-top:60px;margin-left:auto;margin-right:auto;}
+
+.processImage img{margin-top: 15px;/*margin-bottom: 300px;*/}
+
+.company-info {width: 100%;height:400px;padding-top: 100px;padding-left:120px;}
+.company-info .code{float: left;width: 200px;margin-top: 80px;}
+.company-info .intro{float: right;  width: 780px;  text-align: left;  padding: 8px;}
+.company-info .intro span{font-size: 24px;}
+.company-info .intro p{font-size: 18px;margin-top: 30px;width: 520px;line-height: 26px;letter-spacing: 2px;}
+.green{color: #6eb92b;}
+.yellow{color: #ff9c00;}
+.company-info .code_desc{display: block;font-size: 16px;}
+
+.customer_container{width: 1000px;height: 514px; margin: 0 auto;}
+
+.case_container{width: 1000px; margin: 0 auto;}
+.case_container .case_header{width:100%;height:50px;background: url(../img/homepage_titlebg.png) center;display: none;}
+.case_container .case_header .case_title{font-size: 26px;height: 50px;line-height: 50px;}
+.case_container .case_content{width: 100%;margin-top: 20px;}
+.case_container>div>a{display: block;width: 304px;height: 204px;}
+.case_container .case_thumb {/* border: 0px; */ text-decoration: none;  background-repeat: no-repeat;  background-position: center;float: left;margin-left: 26px;}
+.case_container .more_case{text-align: right;  margin: 10px 20px 10px 0;}
+.case_container .more_case img{margin: 0px 20px 40px 0;}
+
+.feedback{width: 100%;height: 768px;background: #ffffff url(../img/footerpic.png) no-repeat center;}
+.feedback h1{font-size:35px;display:block;line-height: 60px;padding-top: 80px;}
+.feedback p{font-size:22px;display:block;padding: 10px 0 20px 0}
+.feedback table{margin-top:30px;}
+.feedback table input {font-size: 20px;height: 50px;padding-left: 20px;line-height: 20px;padding-top: 0; padding-top: 15px\9;height: 35px\9;padding-top: 0px\9\0;height: 50px\9\0;}
+.feedback table textarea   {font-size: 20px;padding: 20px;resize: none;}
+.feedback button {width: 1000px; height: 60px;background: #6eb92b;font-size: 26px;color: #ffffff;}

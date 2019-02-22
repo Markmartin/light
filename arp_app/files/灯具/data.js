@@ -1,0 +1,988 @@
+﻿$axure.loadCurrentPage({
+  "url":"灯具.html",
+  "generationDate":new Date(1450147154664.01),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c6f33f350bee402191d23928d97b7349",
+    "type":"Axure:Page",
+    "name":"灯具",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5261f21f16594a76bb73fd9ed0b3751c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6591ecacf7b04e76b79ec9c880ed9eba",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lightingyun-app/u0.png"}},
+{
+          "id":"d3d9f054f0d746d192eabb29c11793f4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":31,
+              "y":111},
+            "size":{
+              "width":369,
+              "height":656}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bb493a5173274936b1876022a382ad51",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":31,
+                  "y":111},
+                "size":{
+                  "width":369,
+                  "height":656}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u2.jpg"}},
+{
+          "id":"9d06c81d73db4f03af102e954f296cee",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":342,
+              "y":132},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 添加设备",
+                      "target":{
+                        "targetType":"page",
+                        "url":"添加设备.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1622dd0fd93d492db43847a3bd6b6ff7",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":47,
+              "y":373},
+            "size":{
+              "width":233,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 白光灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"白光灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"0978283db25a4146a9c9219de3b38bd9",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":46,
+              "y":440},
+            "size":{
+              "width":342,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 彩色灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"彩色灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"072e82402bc340ed85a3d66e5a32245d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":47,
+              "y":512},
+            "size":{
+              "width":342,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 RGB+W_彩光",
+                      "target":{
+                        "targetType":"page",
+                        "url":"rgb_w_彩光.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"270dadd58bb44108b7e98af0df5bd636",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":46,
+              "y":583},
+            "size":{
+              "width":342,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 白光灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"白光灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8b575ec4281d4f0cba3cb6f22381d9c9",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":46,
+              "y":654},
+            "size":{
+              "width":342,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 彩色灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"彩色灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"50bca398494144aca0284d40b51a37cf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":40,
+              "y":714},
+            "size":{
+              "width":110,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 灯具",
+                      "target":{
+                        "targetType":"page",
+                        "url":"灯具.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ffb969f5a84e4b2fb7ca98bbde196c1a",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":160,
+              "y":716},
+            "size":{
+              "width":120,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 场景",
+                      "target":{
+                        "targetType":"page",
+                        "url":"场景.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c6703aafe1b14673ae0436cf28ce207e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":284,
+              "y":715},
+            "size":{
+              "width":114,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 设置",
+                      "target":{
+                        "targetType":"page",
+                        "url":"设置.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"c1bf2bff45b644599fa1bb11db869589",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":389,
+              "y":352},
+            "size":{
+              "width":150,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"67719d3128bc458989cbd0408ee510fd",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":389,
+                  "y":352},
+                "size":{
+                  "width":150,
+                  "height":80}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u13.png"}},
+{
+          "id":"ed353a9862d34593ad547f236e9b00a8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":290,
+              "y":373},
+            "size":{
+              "width":99,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 1,<br>(Image),<br>隐藏 2",
+                      "objectsToFades":[{
+                          "objectPath":["d65737ec1609424295d555c8a987532a"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f29cc6551b9545be8f17d18a6c32fbd3"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f4744e2e04484e4bb8fda2d354bfe5e9"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]},
+{
+                      "action":"fadeWidget",
+                      "description":"显示/隐藏部件",
+                      "objectsToFades":[]}]}]}},
+          "tabbable":true},
+{
+          "id":"f29cc6551b9545be8f17d18a6c32fbd3",
+          "label":"1",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":610,
+              "y":234},
+            "size":{
+              "width":254,
+              "height":328},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0d214dcbb57a40e29be960f397a08f89",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":610,
+                  "y":234},
+                "size":{
+                  "width":254,
+                  "height":328},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/1_u16.png"}},
+{
+          "id":"d65737ec1609424295d555c8a987532a",
+          "label":"2",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":610,
+              "y":240},
+            "size":{
+              "width":254,
+              "height":328}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e757f3ee96684e33b59a781422812e01",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":610,
+                  "y":240},
+                "size":{
+                  "width":254,
+                  "height":328}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/2_u18.png"}},
+{
+          "id":"edd7dc2328284bd2b69c1988a0705322",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":375,
+              "y":141},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f6ef61186fac47c98f1b9ab894f6984b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":375,
+                  "y":141},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"9ee9c9690e794809a7e7aaaf5917d7a4",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":160,
+              "y":388},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"04dc3d1a3e374819902dad70a7b8ecf7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":160,
+                  "y":388},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"f4744e2e04484e4bb8fda2d354bfe5e9",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":false,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":286,
+              "y":384},
+            "size":{
+              "width":100,
+              "height":29},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ae753a9de69344d2819d86030573449a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":false,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":286,
+                  "y":384},
+                "size":{
+                  "width":100,
+                  "height":29},
+                "visible":false},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"fadeWidget",
+                      "description":"显示 2,<br>隐藏 (Image),<br>1",
+                      "objectsToFades":[{
+                          "objectPath":["f4744e2e04484e4bb8fda2d354bfe5e9"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["f29cc6551b9545be8f17d18a6c32fbd3"],
+                          "fadeInfo":{
+                            "fadeType":"hide",
+                            "options":{
+                              "showType":"none"}}},
+{
+                          "objectPath":["d65737ec1609424295d555c8a987532a"],
+                          "fadeInfo":{
+                            "fadeType":"show",
+                            "options":{
+                              "showType":"none"}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/灯具/u24.png"}},
+{
+          "id":"8e477404b64e483c8faa58303679610d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":158,
+              "y":450},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3642393b301c43899f18e032b8f6304b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":158,
+                  "y":450},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"295b96465be54ccba1c8552ad6d59e30",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":158,
+              "y":520},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a0c02c175ab94afea8572ad5bb82e992",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":158,
+                  "y":520},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"31b917232ba24a0ebf22bd702772e09e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":110,
+              "y":718},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9c3866d6e1de407fbfcad55082100293",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":110,
+                  "y":718},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"9ebac80de32545fab3b3de557b79fe16",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":240,
+              "y":720},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9ed68cf0fbaf4b7d98f34891cf49906c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":240,
+                  "y":720},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}},
+{
+          "id":"b0f26ee7ed3647878323c8b6a2fdd214",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFFF6600},
+            "location":{
+              "x":360,
+              "y":720},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"930af899c253474abf302d2da8ced67f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFF6600},
+                "location":{
+                  "x":360,
+                  "y":720},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/灯具/u20.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5261f21f16594a76bb73fd9ed0b3751c":{
+      "scriptId":"u0"},
+    "6591ecacf7b04e76b79ec9c880ed9eba":{
+      "scriptId":"u1"},
+    "d3d9f054f0d746d192eabb29c11793f4":{
+      "scriptId":"u2"},
+    "bb493a5173274936b1876022a382ad51":{
+      "scriptId":"u3"},
+    "9d06c81d73db4f03af102e954f296cee":{
+      "scriptId":"u4"},
+    "1622dd0fd93d492db43847a3bd6b6ff7":{
+      "scriptId":"u5"},
+    "0978283db25a4146a9c9219de3b38bd9":{
+      "scriptId":"u6"},
+    "072e82402bc340ed85a3d66e5a32245d":{
+      "scriptId":"u7"},
+    "270dadd58bb44108b7e98af0df5bd636":{
+      "scriptId":"u8"},
+    "8b575ec4281d4f0cba3cb6f22381d9c9":{
+      "scriptId":"u9"},
+    "50bca398494144aca0284d40b51a37cf":{
+      "scriptId":"u10"},
+    "ffb969f5a84e4b2fb7ca98bbde196c1a":{
+      "scriptId":"u11"},
+    "c6703aafe1b14673ae0436cf28ce207e":{
+      "scriptId":"u12"},
+    "c1bf2bff45b644599fa1bb11db869589":{
+      "scriptId":"u13"},
+    "67719d3128bc458989cbd0408ee510fd":{
+      "scriptId":"u14"},
+    "ed353a9862d34593ad547f236e9b00a8":{
+      "scriptId":"u15"},
+    "f29cc6551b9545be8f17d18a6c32fbd3":{
+      "scriptId":"u16"},
+    "0d214dcbb57a40e29be960f397a08f89":{
+      "scriptId":"u17"},
+    "d65737ec1609424295d555c8a987532a":{
+      "scriptId":"u18"},
+    "e757f3ee96684e33b59a781422812e01":{
+      "scriptId":"u19"},
+    "edd7dc2328284bd2b69c1988a0705322":{
+      "scriptId":"u20"},
+    "f6ef61186fac47c98f1b9ab894f6984b":{
+      "scriptId":"u21"},
+    "9ee9c9690e794809a7e7aaaf5917d7a4":{
+      "scriptId":"u22"},
+    "04dc3d1a3e374819902dad70a7b8ecf7":{
+      "scriptId":"u23"},
+    "f4744e2e04484e4bb8fda2d354bfe5e9":{
+      "scriptId":"u24"},
+    "ae753a9de69344d2819d86030573449a":{
+      "scriptId":"u25"},
+    "8e477404b64e483c8faa58303679610d":{
+      "scriptId":"u26"},
+    "3642393b301c43899f18e032b8f6304b":{
+      "scriptId":"u27"},
+    "295b96465be54ccba1c8552ad6d59e30":{
+      "scriptId":"u28"},
+    "a0c02c175ab94afea8572ad5bb82e992":{
+      "scriptId":"u29"},
+    "31b917232ba24a0ebf22bd702772e09e":{
+      "scriptId":"u30"},
+    "9c3866d6e1de407fbfcad55082100293":{
+      "scriptId":"u31"},
+    "9ebac80de32545fab3b3de557b79fe16":{
+      "scriptId":"u32"},
+    "9ed68cf0fbaf4b7d98f34891cf49906c":{
+      "scriptId":"u33"},
+    "b0f26ee7ed3647878323c8b6a2fdd214":{
+      "scriptId":"u34"},
+    "930af899c253474abf302d2da8ced67f":{
+      "scriptId":"u35"}}});

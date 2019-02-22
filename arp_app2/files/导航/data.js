@@ -1,0 +1,189 @@
+﻿$axure.loadCurrentPage({
+  "url":"导航.html",
+  "generationDate":new Date(1454143465917.72),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"71fab68d229840f49c2706f8578f7e2d",
+    "type":"Axure:Page",
+    "name":"导航",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9b3937c75d5a45bd803fea7ddd953cad",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"73885247d48043f58336d6d4a3ccd290",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/lighting_cloud_v2/u0.png"}},
+{
+          "id":"1e84c7f999e94b8eacf8d62f6c66f248",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":29,
+              "y":110},
+            "size":{
+              "width":372,
+              "height":660}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8cb7655f2ff64aa9a30f2f17804fdd05",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":29,
+                  "y":110},
+                "size":{
+                  "width":372,
+                  "height":660}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/导航/u2.jpg"}},
+{
+          "id":"9df1e5c20097452998adedaa7d9f4760",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":290,
+              "y":185},
+            "size":{
+              "width":100,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 组灯",
+                      "target":{
+                        "targetType":"page",
+                        "url":"组灯.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9bfa0f46cae5497c963d8cd4eb4127ca",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFF009DD9},
+            "location":{
+              "x":369,
+              "y":190},
+            "size":{
+              "width":10,
+              "height":10},
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fbf520cb74de4ff3bfa29902a7ac3754",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFF009DD9},
+                "location":{
+                  "x":369,
+                  "y":190},
+                "size":{
+                  "width":10,
+                  "height":10},
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/色温_亮度/u11.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9b3937c75d5a45bd803fea7ddd953cad":{
+      "scriptId":"u0"},
+    "73885247d48043f58336d6d4a3ccd290":{
+      "scriptId":"u1"},
+    "1e84c7f999e94b8eacf8d62f6c66f248":{
+      "scriptId":"u2"},
+    "8cb7655f2ff64aa9a30f2f17804fdd05":{
+      "scriptId":"u3"},
+    "9df1e5c20097452998adedaa7d9f4760":{
+      "scriptId":"u4"},
+    "9bfa0f46cae5497c963d8cd4eb4127ca":{
+      "scriptId":"u5"},
+    "fbf520cb74de4ff3bfa29902a7ac3754":{
+      "scriptId":"u6"}}});

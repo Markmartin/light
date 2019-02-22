@@ -1,0 +1,121 @@
+﻿$axure.loadCurrentPage({
+  "url":"index.html",
+  "generationDate":new Date(1453876972269.75),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c77f7c5a804e46579ba7e8fba64f7cae",
+    "type":"Axure:Page",
+    "name":"index",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e466b0540fcd48fba3f1aa93d2c09134",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"84a16b12422c46f2a3475559efbd1f7e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/index/u0.png"}},
+{
+          "id":"76c0a8c6a242499b8da16751a3e00b48",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "fontName":"'Applied Font Regular', 'Applied Font'",
+            "location":{
+              "x":28,
+              "y":108},
+            "size":{
+              "width":373,
+              "height":663}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"99a6a45bf1934c26b2d204cc174ba164",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Applied Font Regular', 'Applied Font'",
+                "location":{
+                  "x":28,
+                  "y":108},
+                "size":{
+                  "width":373,
+                  "height":663}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 请链接蓝牙设备",
+                      "target":{
+                        "targetType":"page",
+                        "url":"请链接蓝牙设备.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/index/u2.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "e466b0540fcd48fba3f1aa93d2c09134":{
+      "scriptId":"u0"},
+    "84a16b12422c46f2a3475559efbd1f7e":{
+      "scriptId":"u1"},
+    "76c0a8c6a242499b8da16751a3e00b48":{
+      "scriptId":"u2"},
+    "99a6a45bf1934c26b2d204cc174ba164":{
+      "scriptId":"u3"}}});

@@ -1,0 +1,101 @@
+@charset "utf-8";
+@import url(common.css);
+#container .content {width: 100%;height:1500px;background-color:#ccc}
+#header {z-index: 999;}
+
+
+.div_service{
+
+
+    background: url(../img/step1-bg.jpg) no-repeat center;
+    width:100%;
+    height:840px; 
+
+
+}
+
+.div_word{
+
+    /*padding-top:20px;*/
+    margin-top:30px;
+}
+
+
+
+
+
+.title1{
+
+    padding-top:120px;
+    padding-bottom:15px;
+
+    color:#484848;
+    letter-spacing: 1px; 
+    font-size:50px;
+    font-weight: normal;
+    text-align:center;
+
+}
+
+
+.title2{
+
+
+    padding-top:110px;
+    padding-bottom:20px;
+    text-align:center;
+    color:#484848;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: normal;
+
+    
+}
+
+
+.title3{
+
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align:center;
+    color:#484848;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+
+.processImage
+{
+    /*background: url(../img/step1.png) center;*/
+    width:1004px;
+    height:192px;
+    /*    padding-top:30px;*/
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+.stepImage
+{
+
+    width:1068px;
+    height:371px;
+    /*    padding-top:30px;*/
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+
+.div_process{
+
+    width:100%;
+    height:789px; 
+    background:url(../img/step2-bg.jpg)   no-repeat center;
+}

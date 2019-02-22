@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="专业 智能硬件 本地控制 远程控制 云端控制 解决方案提供商" />
+    <meta name="description" content="专业 智能硬件 本地控制 远程控制 云端控制 解决方案提供商" />
+    <title>照明云</title>
+    <link type="image/x-icon" rel="icon" href="http://www.zhuoapp.com/favicon.ico">
+    <link type="image/x-icon" rel="shortcut icon" href="http://www.zhuoapp.com/favicon.ico">
+    <link href="css/contact.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iM2Tisz3zsEU7LE9vMQRfWWr"></script>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <base target="_blank" />
+</head>
+<body>
+    <!--#include file="header.html" -->
+    <div id="container">
+        <div id="allmap"></div>
+        <div class="company-info">
+                <div class="code">
+                    <img src="img/homepage_qrcode.jpg">
+                    <span class="code_desc">微信公众号</span>
+                </div>
+                <div class="intro">
+                    <h1>上海卓年软件研发有限公司</h1>
+                    <h2><span>地址:</span>上海市普陀区谈家渡路28号15楼D座</h2>
+                    <h2><span>电话:</span>021-31608815</h2>
+                    <h2><span>邮箱:</span>service@zhuoapp.com</h2>
+                    <h2><span>招聘:</span>hr@zhuoapp.com</h2>
+                </div>
+                <div class="form">
+                   <table>
+                        <tr>
+                            <td><input id="name_input" style="width:300px;" placeholder="联系人"></td>
+                        </tr>
+                        <tr>
+                            <td><input id="email_input" style="width:300px;" placeholder="电话/邮箱"></td>
+                        </tr>
+                        <tr>
+                            <td><textarea id="desc_input" style="height:60px;width:300px;overflow-y:auto" placeholder="留言"></textarea></td>
+                        </tr>
+                    </table>
+                    <button id="submit" type="button">提交</button>
+                </div>
+            </div>
+    </div>
+<!--#include file="footer.html" -->
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap");          
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+    var local = new BMap.LocalSearch(map, {
+        renderOptions:{map: map}
+    });
+    local.search("上海卓年软件研发有限公司");
+    $(function(){
+        $("#submit").click(function(){
+            jQuery.support.cors = true;
+            $.ajax
+            ({
+                type: "POST",
+                contentType: "application/x-www-form-urlencoded",
+                dataType: "html",
+                    url: "http://wiki.zhuoapp.com/postEmail",  //这里是网址
+                    data:{
+                        name:$("#name_input").val(),
+                        email:$("#email_input").val(),
+                        tel:$("#email_input").val(),
+                        des:$("#desc_input").val(),
+                    },
+                    success:function(data){alert("留言成功，稍后我们会联系您");},
+                    timeout:30000, 
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert(errorThrown);
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

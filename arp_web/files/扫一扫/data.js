@@ -1,0 +1,170 @@
+﻿$axure.loadCurrentPage({
+  "url":"扫一扫.html",
+  "generationDate":new Date(1450070652435.51),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1f5b881dd89b4f2698ed7b381cef442f",
+    "type":"Axure:Page",
+    "name":"扫一扫",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c35c0ebf1f7644c1a7852688f14b2616",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":430,
+              "height":880}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d16dce7b49454db6b87ca2a393d9fcb1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":430,
+                  "height":880}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/home/u0.jpg"}},
+{
+          "id":"37d36ac615c94bedb82d20f41c5ad94a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":107},
+            "size":{
+              "width":374,
+              "height":666}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9b2ae8dd24de4401950e88b789ec4cda",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":28,
+                  "y":107},
+                "size":{
+                  "width":374,
+                  "height":666}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/扫一扫/u2.jpg"}},
+{
+          "id":"8f721063f0df488394bd6f17dde486bf",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":440,
+              "y":694},
+            "size":{
+              "width":92,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"781c1c347ba04d89ad5e6726a8913933",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":440,
+                  "y":694},
+                "size":{
+                  "width":92,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"62c9257a75a6470e88098d944382e0f1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":28,
+              "y":130},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 返回",
+                      "target":{
+                        "targetType":"backUrl",
+                        "includeVariables":false},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c35c0ebf1f7644c1a7852688f14b2616":{
+      "scriptId":"u0"},
+    "d16dce7b49454db6b87ca2a393d9fcb1":{
+      "scriptId":"u1"},
+    "37d36ac615c94bedb82d20f41c5ad94a":{
+      "scriptId":"u2"},
+    "9b2ae8dd24de4401950e88b789ec4cda":{
+      "scriptId":"u3"},
+    "8f721063f0df488394bd6f17dde486bf":{
+      "scriptId":"u4"},
+    "781c1c347ba04d89ad5e6726a8913933":{
+      "scriptId":"u5"},
+    "62c9257a75a6470e88098d944382e0f1":{
+      "scriptId":"u6"}}});
